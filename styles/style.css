@@ -15,7 +15,7 @@ body{
 
 header{
     background: url(../img/blue-slant.svg) no-repeat bottom/150%,
-                         #FFF url(../img/background.png) no-repeat center/100%
+                         #FFF url(../img/background.png) no-repeat center/100%;
 }
 
 .pro-pic {
