@@ -14,8 +14,8 @@ body{
 }
 
 header{
-    background: url(../img/blue-slant.svg) no-repeat bottom/150%,
-                         #FFF url(../img/background.png) no-repeat center/100%;
+    background: url(../img/blue-slant.svg) no-repeat bottom/100%,
+                         #FFF url(../img/background.png) no-repeat center/cover;
 }
 
 .pro-pic {
@@ -89,6 +89,58 @@ footer {
     color: #CCC;
 }
 
-@media{
+.internal-links:active {
+    color: #0FF;
+}
+
+@media only screen and (min-width: 700px) {
     
+    header{
+    background: url(../img/small-blue-slant.svg) no-repeat bottom/100%,
+                         #FFF url(../img/background.png) no-repeat center/100%;
+    }
+    
+    .pro-pic {
+        width: 15%;
+    }
+    
+    h1 {
+        font-size: 2em;
+         padding-top: 1%;
+    }
+    
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    p {
+        font-size: 1.6em;
+        width: 70%;
+    }
+    
+    li {
+        font-size: 2em;
+        margin-right: 200%;
+        padding: 15%;
+    }
+    
+    .github {
+    width: 5%;
+    padding-right: 1%;
+}
+
+    .linked-in {
+        width: 5%;
+        padding-right: 1%;
+    }
+    
+    .social-links {
+        padding: 0;
+    }
+    
+    footer {
+        padding-top: 5%;
+        background: url(../img/small-white-slant.svg) no-repeat bottom/cover;
+    }
 }
