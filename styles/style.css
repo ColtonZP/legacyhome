@@ -33,13 +33,17 @@ h1 {
     font-size: 5em;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 main {
     margin: 5%;
 }
 
 p {
     padding-top: 1%;
-    font-size: 100%;
+    font-size: 3em;
     line-height: 1.6em;
 }
 
