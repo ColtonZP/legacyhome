@@ -54,31 +54,26 @@ ul {
 li {
     list-style: none;
     padding: 10% 0;
-    font-size: 1.2em;
+    font-size: 3em;
     font-weight: bolder;
 }
 
 .github {
-    width: 10%;
-    margin-right: 5%;
+    width: 20%;
+    padding-right: 2%;
 }
 
 .linked-in {
-    width: 10%;
-    margin-right: 15%;
+    width: 20%;
+    padding-right: 2%;
 }
 
 .social-links {
+    padding-top: 6%;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
 }
 
 footer{
-    padding: 5%;
     background: url(../img/white-slant.svg) no-repeat center/cover;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
