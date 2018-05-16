@@ -109,8 +109,8 @@ footer {
          padding-top: 1%;
     }
     
-    h2 {
-        font-size: 1.2em;
+    .about-me {
+        font-size: 2em;
     }
     
     main {
@@ -121,12 +121,13 @@ footer {
     p {
         font-size: 1.2em;
         width: 70%;
+        padding: 1% 0;
     }
     
     li {
         font-size: 1.2em;
-        margin-right: 200%;
-        padding: 15%;
+        margin: 5%;
+        padding-right: 100%;
     }
     
     .github {
