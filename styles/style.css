@@ -109,18 +109,22 @@ footer {
          padding-top: 1%;
     }
     
+    h2 {
+        font-size: 1.2em;
+    }
+    
     main {
         flex-direction: row;
         justify-content: space-around;
     }
     
     p {
-        font-size: 1.6em;
+        font-size: 1.2em;
         width: 70%;
     }
     
     li {
-        font-size: 2em;
+        font-size: 1.2em;
         margin-right: 200%;
         padding: 15%;
     }
