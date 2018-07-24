@@ -15,7 +15,7 @@ body{
 
 header{
     background: url(../img/blue-slant.svg) no-repeat bottom/100%,
-                         #FFF url(../img/background.png) no-repeat center/cover;
+        #FFF url(../img/background.png) no-repeat center/cover;
 }
 
 .pro-pic {
@@ -101,8 +101,8 @@ footer {
 @media only screen and (min-device-width: 768px) {
     
     header{
-    background: url(../img/small-blue-slant.svg) no-repeat bottom/100%,
-                         #FFF url(../img/background.png) no-repeat center/100%;
+        background: url(../img/small-blue-slant.svg) no-repeat bottom/100%,
+                    #FFF url(../img/background.png) no-repeat center/100%;
     }
     
     .pro-pic {
@@ -131,6 +131,7 @@ footer {
     
     nav{
         margin-right: 20%;
+        width: 20%;
     }
     
     li {
@@ -139,9 +140,9 @@ footer {
     }
     
     .github {
-    width: 5%;
-    padding-right: 1%;
-}
+        width: 5%;
+        padding-right: 1%;
+    }
 
     .linked-in {
         width: 5%;
@@ -158,8 +159,8 @@ footer {
     }
     
     .closer{
-    padding-right: 1%;
-    margin: 3%;
-    font-size: 1em;
+        padding-right: 1%;
+        margin: 3%;
+        font-size: 1em;
     }
 }
