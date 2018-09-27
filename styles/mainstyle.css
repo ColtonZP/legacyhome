@@ -15,6 +15,8 @@ body{
 
 header{
     background: #FFF url(../img/background.png) no-repeat center/100%;
+    background-position: absolute;
+    background-position-y: 0%;
     background-attachment: fixed;
 }
 
@@ -114,12 +116,6 @@ footer {
 
 @media only screen and (min-device-width: 768px) {
     
-    header {
-        background: #FFF url(../img/background.png) no-repeat cover/100%;
-        background-position-y: 150%;
-        background-attachment: fixed;
-    }
-    
     .pro-pic {
         width: 15%;
     }
@@ -135,24 +131,23 @@ footer {
     
     main {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
     
     p {
         font-size: 1.2em;
-        width: 70%;
+        width: 100%;
         padding: 1% 0;
     }
     
     nav{
-        margin-right: 15%;
         width: 30%;
     }
     
     li {
         width: 100%;
         font-size: 1.2em;
-        padding: 10%;
     }
     
     .github {
@@ -173,5 +168,18 @@ footer {
     
     .closer{
         font-size: 1em;
+    }
+
+    .website-preview{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info{
+        width: 65%;
+    }
+    .expo {
+        margin-top: 1%;
+        
     }
 }
