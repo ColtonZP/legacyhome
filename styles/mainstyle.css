@@ -10,21 +10,22 @@
 }
 
 body{
-    background: #00C8FF;
+    background: #FFF;
 }
 
 header{
-    background: url(../img/blue-slant.svg) no-repeat bottom/100%,
-                         #FFF url(../img/background.png) no-repeat center/cover;
+    background: #FFF url(../img/background.png) no-repeat center/100%;
 }
 
 .pro-pic {
+    z-index: 2; position:relative;
     display: flex;
     margin: auto;
     padding-top: 3%;
 }
 
 h1 {
+    z-index: 2; position:relative;
     padding-top: 3%;
     text-align: center;
     font-size: 5em;
@@ -35,10 +36,22 @@ h1 {
     font-weight: bolder;
 }
 
+.maindiv {
+    background-color: #00C8FF;
+    transform: skewY(3deg);
+    height: 100%;
+    margin-top: -8%;
+    box-shadow: 0 0 25px 5px #000000;
+    position: relative;
+    top: -1.2em;
+}
+
 main {
+    padding-top: 10%;
     margin: 5%;
     display: flex;
     flex-direction: column;
+    transform: skewY(-3deg);
 }
 
 p {
@@ -70,13 +83,12 @@ li {
 }
 
 .social-links {
-    padding-top: 6%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 footer {
-    background: url(../img/white-slant.svg) no-repeat center/cover;
+    color: #CCC;
 }
 
 .internal-links:link{
@@ -96,13 +108,13 @@ footer {
     padding: 0 1%;
     margin-top: 10%;
     font-size: 2em;
+    margin: 4% 0 0 0;
 }
 
 @media only screen and (min-device-width: 768px) {
     
-    header{
-    background: url(../img/small-blue-slant.svg) no-repeat bottom/100%,
-                         #FFF url(../img/background.png) no-repeat center/100%;
+    header {
+        background: #FFF url(../img/background.png) no-repeat center/100%;
     }
     
     .pro-pic {
@@ -111,7 +123,7 @@ footer {
     
     h1 {
         font-size: 2em;
-         padding-top: 1%;
+        padding-top: 1%;
     }
     
     .about-me {
@@ -130,22 +142,22 @@ footer {
     }
     
     nav{
-        margin-right: 20%;
+        margin-right: 15%;
+        width: 30%;
     }
     
     li {
+        width: 100%;
         font-size: 1.2em;
         padding: 10%;
     }
     
     .github {
-    width: 5%;
-    padding-right: 1%;
-}
+        width: 5%;
+    }
 
     .linked-in {
         width: 5%;
-        padding-right: 1%;
     }
     
     .social-links {
@@ -153,13 +165,10 @@ footer {
     }
     
     footer {
-        padding-top: 5%;
-        background: url(../img/small-white-slant.svg) no-repeat bottom/cover;
+        background-color: #FFF;
     }
     
     .closer{
-    padding-right: 1%;
-    margin: 3%;
-    font-size: 1em;
+        font-size: 1em;
     }
 }
