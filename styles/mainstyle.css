@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background: #FFF url(../img/background.png) no-repeat center/cover;
+    background: #FFF url(../img/background.png) no-repeat center/100%;
     background-position: absolute;
     background-position-y: 0%;
     background-attachment: fixed;
@@ -37,6 +37,7 @@ h1 {
 h4 {
     z-index: 2; position:relative;
     text-align: center;
+    font-size: 2em;
 }
 
 .about-me {
@@ -117,6 +118,49 @@ footer {
     margin: 4% 0 0 0;
 }
 
+.website-preview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+}
+
+.websiteimg {
+    width: 100%;
+    height: 80%;
+    box-shadow: 0 0 10px #000;
+    transition: .3s;
+}
+
+.preview1 {
+    background: #FFF url('https://placeimg.com/600/300/tech') no-repeat center/cover;
+}
+
+.preview2 {
+    background: #FFF url('https://placeimg.com/500/200/tech') no-repeat center/cover;
+}
+
+.preview3 {
+    background: #FFF url('https://placeimg.com/400/300/tech') no-repeat center/cover;
+}
+
+.webtitle {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.expo{
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.web-discription {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
 @media only screen and (min-device-width: 768px) {
     
     .pro-pic {
@@ -175,36 +219,13 @@ footer {
     }
 
     .website-preview {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         width: 30%;
         height: 300px;
     }
 
-    .websiteimg {
-        width: 100%;
-        height: 80%;
-        box-shadow: 0 0 10px #000;
-        transition: .3s ease;
-    }
-
-    .preview1 {
-        background: #FFF url('https://placeimg.com/600/300/tech') no-repeat center/cover;
-    }
-
-    .preview2 {
-        background: #FFF url('https://placeimg.com/500/200/tech') no-repeat center/cover;
-    }
-
-    .preview3 {
-        background: #FFF url('https://placeimg.com/400/300/tech') no-repeat center/cover;
-    }
-
-    .websiteimg:hover {
-        box-shadow: inset 0 0 25px 5px #000;
+    .websiteimg:hover{
+        box-shadow: inset 0 0 50px 10px #000;
         filter: grayscale(100%);
-        transition: .3s ease;
     }
 
     .websiteimg:hover .web-discription {
@@ -218,7 +239,7 @@ footer {
         width: 100%;
         height: 100%;
         color: #FFF;
-        transition: .3s ease;
+        transition: .3s;
     }
 
     .info {
@@ -226,6 +247,9 @@ footer {
     }
     .expo {
         margin-top: 1%;
-        
+    }
+
+    .webtitle {
+        font-size: 2em;
     }
 }
